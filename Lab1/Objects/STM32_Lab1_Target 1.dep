@@ -1,0 +1,2 @@
+Dependencies for Project 'STM32_Lab1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Lab1.s)(0x5B3939AA)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-ID:\KeilARM\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-ID:\KeilARM\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 525" --pd "STM32F401xE SETA 1"--list .\listings\lab1.lst --xref -o .\objects\lab1.o --depend .\objects\lab1.d)

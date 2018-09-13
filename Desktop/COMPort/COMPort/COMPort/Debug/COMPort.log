@@ -1,0 +1,3 @@
+﻿  Main.cpp
+d:\stm32_projects\desktop\comport\comport\comport\main.cpp(13): warning C4101: rbuf: неиспользованная локальная переменная
+  COMPort.vcxproj -> D:\STM32_Projects\Desktop\COMPort\COMPort\Debug\COMPort.exe

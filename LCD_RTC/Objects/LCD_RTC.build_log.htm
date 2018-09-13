@@ -1,0 +1,78 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mx Mx, KPI, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.25.2.0
+Toolchain Path:  D:\KeilARM\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+D:\STM32_Projects\LCD_RTC\LCD_RTC.uvprojx
+Project File Date:  07/18/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\KeilARM\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main_LCD_RTC.c...
+I2C.h(1): warning:  #1295-D: Deprecated declaration InitialzieI2C_PB6_PB7 - give arg types
+  void InitialzieI2C_PB6_PB7();
+I2C.h(2): warning:  #1295-D: Deprecated declaration I2C1Initialize - give arg types
+  void I2C1Initialize();
+I2C.h(3): warning:  #1295-D: Deprecated declaration I2C1LCDInitialization - give arg types
+  void I2C1LCDInitialization();
+I2C.h(10): warning:  #1-D: last line of file ends without a newline
+  void TIM2Delay(int us);
+main_LCD_RTC.c(17): warning:  #1-D: last line of file ends without a newline
+  }
+main_LCD_RTC.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=1548 RO-data=420 RW-data=0 ZI-data=1632  
+".\Objects\LCD_RTC.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil.STM32F4xx_DFP.2.13.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.2
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\KeilARM\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  D:\KeilARM\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: Keil::Device:Startup:2.6.2
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f401xe.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F401xx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
